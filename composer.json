@@ -20,13 +20,9 @@
         }
     ],
     "require": {
-        "php": "^7.0",
-        "symfony/process": "^3.3",
+        "php": "^7.2|^8.0",
+        "symfony/process": "^4.0",
         "spatie/temporary-directory": "^1.0.0"
-    },
-    "require-dev": {
-        "codedungeon/phpunit-result-printer": "^0.4.4",
-        "phpunit/phpunit": "^6.0"
     },
     "autoload": {
         "psr-4": {
@@ -37,9 +33,6 @@
         "psr-4": {
             "Breadlesscode\\Office\\Test\\": "tests"
         }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit"
     },
     "config": {
         "sort-packages": true
